@@ -1,0 +1,146 @@
+.header{
+    display: flex;
+    padding: 0 10px;
+    background-color: #000;
+}
+.header .logo{
+    display: inline-block;
+    padding: 6px 0;
+}
+.header nav{
+    text-align: right;
+    font-size: 0;
+    width: 100%;
+}
+.header nav a{
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+    left:0;
+    line-height: 52px;
+    padding: 0 10px;
+    display: inline-block;
+}
+.header nav a:hover{
+    background-color: #fa0;
+}
+.banner img{
+   width: 100%;
+}
+.path{
+    display: flex;
+}
+.path li{
+    position: relative;
+    padding: 6px 8px;
+}
+.path li a{
+    color:#aaa;
+    text-decoration: none;
+    font-size: 14px;
+}
+.path li + li::before{
+    content: '/';
+    color:#aaa;
+    position: absolute;
+    left: 0;
+}
+.item h3{
+    font-size: 36px;
+    padding: 0 0 30px;
+}
+.about{
+    padding: 40px 0 60px;
+}
+.about .wrap{
+    display: flex;
+}
+.wrap{
+    width: 960px;
+    margin: auto;
+}
+.about .wrap .item{
+  width: 300px;
+  margin: 0 10px;
+  text-align: center;
+}
+.about  h2{
+    width: 960px;;
+    font-size: 42px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+}
+.about > p{
+   width: 660px;
+   margin: auto;
+   padding: 0 0 40px;
+   text-align: center;
+}
+.products{
+    background-color: #ccc;
+}
+.products .wrap{
+    display: flex;
+}
+.products .item{
+    width: 50%;
+}
+.products .item img{
+    width: 100%;
+}
+.products .item img{
+    width: 100%;
+    vertical-align: bottom;
+}
+.products .pic{
+
+}
+.products .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    text-align: center;
+}
+.service{
+  padding: 40px 0;
+  background-color: #ffa;
+}
+.service > h2{
+    width: 960px;
+    margin: auto;
+    text-align: center;
+    font-size:  42px;
+    padding: 20px 0;
+}
+.service > p{
+    width: 960px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 40px ;
+}
+.service .wrap{
+ display: flex;
+}
+.service .item{
+  margin: 0 10px;
+  width: 300px;
+  text-align: center;
+}
+.service .item h3{
+
+}
+.service .item p {
+  
+}
+.service .item img{
+  width: 100%;
+}
+.footer{
+    text-align: center;
+    background-color: #000;
+    color: #888;
+    padding: 20px 0;
+}
+
